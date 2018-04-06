@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100vh;
+  background-color: darkgray;;
+}
+.info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  font-family: 'Courier New', serif;
+}
+#canvas{
+  margin:0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: darkgray;
+}
+canvas{
+  border: 3px solid #fff;
+  border-left: none;
+  border-right: none;
+}
+
+#scoreYou,#scoreComputer{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 50px;
+  font-weight: bold;
+}
